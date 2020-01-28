@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{99DF117E-A39D-4990-8CA4-0A8469E6EF4B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FoodNutritionCalculator/WareHouse.cs">
+    <Files>
+      <File FileName="FoodNutritionCalculator/Item.cs" Line="22" Column="33" />
+      <File FileName="FoodNutritionCalculator/WareHouse.cs" Line="61" Column="98" />
+      <File FileName="FoodNutritionCalculator/NutritionList.cs" Line="143" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FoodNutritionCalculator" expanded="True">
+            <Node name="FoodNutritionCalculator" expanded="True">
+              <Node name="WareHouse.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FoodNutritionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
