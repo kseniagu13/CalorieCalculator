@@ -14,9 +14,7 @@ namespace FoodNutritionCalculator
             NUTS,
             FISH,
             SEAFOOD,
-            CONFECTIONARY,
-            BEVERAGES,
-            PASTRY
+            BEVERAGES
         }
 
     class Food
@@ -32,7 +30,7 @@ namespace FoodNutritionCalculator
         double fibre;
         double salt;
       
-
+       
 
         public Food(string _name, int _id, Category _category, int _calories, double _carbohydrates, double _sugar, double _fat, double _protein, double _fibre, double _salt)
         {

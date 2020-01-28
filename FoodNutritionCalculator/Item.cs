@@ -19,7 +19,7 @@ namespace FoodNutritionCalculator
 
         public void PrintItem()
         {
-            Console.WriteLine($"Food Id: {food.Id} \n Name: {food.Name} \n Category: {food.Category} \n Calories: {CalculateItemTotalCalories()} \n Carbohydrates: {CalculateItemTotalCarbs()} \n Sugar: {CalculateItemTotalSugar()} \n Fat: {CalculateItemTotalFat()} \n Protein: {CalculateItemTotalProtein()} \n Fibre: {CalculateItemTotalFibre()} \n Salt: {CalculateItemTotalSalt()}  ");
+            Console.WriteLine($" Nutritiens per 100g \n Food Id: {food.Id} \n Name: {food.Name} \n Category: {food.Category} \n Calories: {CalculateItemTotalCalories()} \n Carbohydrates: {CalculateItemTotalCarbs()} \n Sugar: {CalculateItemTotalSugar()} \n Fat: {CalculateItemTotalFat()} \n Protein: {CalculateItemTotalProtein()} \n Fibre: {CalculateItemTotalFibre()} \n Salt: {CalculateItemTotalSalt()} \n ");
              
         }
 

@@ -60,15 +60,35 @@ namespace FoodNutritionCalculator
             InStock.Add(whiteBread);
             Food banana = new Food("banana", 25, Category.FRUITS, 89, 23, 12, 0.3, 1.1, 2.6, 0.001);
             InStock.Add(banana);
-
-
+            Food apple = new Food("apple", 26, Category.FRUITS, 95, 14, 10, 0.2, 0.3, 2.4, 0.001);
+            InStock.Add(apple);
+            Food tomato = new Food("tomato", 27, Category.VEGETABLES, 18, 3.9, 2.6, 0.2, 0.9, 1.2, 0.005);
+            InStock.Add(tomato);
+            Food cucumber = new Food("cucumber", 28, Category.VEGETABLES, 15, 3.6, 1.7, 0.1, 0.7, 0.5, 0.002);
+            InStock.Add(cucumber);
+            Food carrot = new Food("carrot", 29, Category.VEGETABLES, 41, 10, 4.7, 0.2, 0.9, 2.8, 0.069);
+            InStock.Add(carrot);
+            Food potato = new Food("potato", 30, Category.VEGETABLES, 77, 17, 0.8, 0.1, 2, 2.2, 0.006);
+            InStock.Add(potato);
+            Food almonds = new Food("almonds", 31, Category.NUTS, 500, 19.8, 4.8, 50.7, 21.2, 11.8, 0.001);
+            InStock.Add(almonds);
+            Food peanuts = new Food("peanuts", 32, Category.NUTS, 567, 16, 4, 49, 26,9, 0.018);
+            InStock.Add(peanuts);
+            Food orangeJuice = new Food("orange juice", 33, Category.BEVERAGES, 45, 10, 8, 0.2, 0.7, 0.2, 0.001);
+            InStock.Add(orangeJuice);
+            Food blackCoffee = new Food("black coffee", 34, Category.BEVERAGES, 1, 0, 0, 0.1,0.1, 0, 0.0047);
+            InStock.Add(blackCoffee);
+            Food cappuccino = new Food("cappuccino", 35, Category.BEVERAGES, 90, 9, 8, 3.5, 6, 0, 0.008);
+            InStock.Add(cappuccino);
+            Food blackTea = new Food("black tea", 36, Category.BEVERAGES, 1, 0.3, 0, 0, 0, 0, 0.0003);
+            InStock.Add(blackTea);
         }
 
         public void PrinInStock() //selle klassi meetod
         {
             foreach (Food food in InStock)
             {
-                Console.WriteLine("Nutritiens per 100g");
+                //Console.WriteLine("Nutritiens per 100g");
                 Console.WriteLine($"ID: {food.Id}");
                 Console.WriteLine($"Product: {food.Name}");
                 Console.WriteLine($"Category: {food.Category}");

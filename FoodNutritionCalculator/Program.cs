@@ -48,7 +48,7 @@ namespace FoodNutritionCalculator
             if (userCalorieTarget < nutritionListObject.TotalCalories)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Your Daily Calorie Intake is over your target! Eat less calories!");
+                Console.WriteLine("Your Daily Calorie Intake is over your target! Eat less!");
             }
             else if (userCalorieTarget >= nutritionListObject.TotalCalories)
             {
@@ -56,6 +56,7 @@ namespace FoodNutritionCalculator
                 Console.WriteLine("Your Daily Calorie Intake is under your target!");
             }
 
+            
             Console.ReadLine();
 
 

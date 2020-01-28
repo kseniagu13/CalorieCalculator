@@ -140,8 +140,6 @@ namespace FoodNutritionCalculator
             }
         }
 
-       
-
 
     }
 }
